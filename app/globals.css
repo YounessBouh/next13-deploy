@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&family=Lobster&family=Lobster+Two:ital@1&family=Sedgwick+Ave+Display&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&family=Lobster&family=Lobster+Two:ital@1&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lalezar&family=Lilita+One&family=Lobster&family=Lobster+Two:ital@1&family=Sedgwick+Ave+Display&family=Ultra&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* background-color: #1E1E1E; #1F242d ;#0eF ;#0B1120 ;#081b29*/
+body{
+  background-color: #1f1f38;
+  color: white;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary: #222A35;
+  --secondary:#575C66;
+  --tertiary: rgba(31, 209, 253, 0.6);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 80px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 6px;
+  border: 3px solid var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
+}
+
