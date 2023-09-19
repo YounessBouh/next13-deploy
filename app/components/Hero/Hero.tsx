@@ -12,7 +12,7 @@ const Hero=()=>{
       words:["مرحبا بكم، سعداء بوجودكم معنا",
            " جميعا من أجل مستقبل أفضل"],
             loop:true,
-            delaySpeed:6000,
+            delaySpeed:1000,
        });
 
    const[text2,count2]=useTypewriter({
@@ -40,11 +40,11 @@ const Hero=()=>{
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-              delay: 0.4,
+              delay: 0.2,
               x: { type: "spring", stiffness: 60 },
               opacity: { duration: 1 },
               ease: "easeIn",
-              duration: 0.8,
+              duration: 0.4,
             }}
             className="w-auto h-auto object-contain border-cyan-900 border-4"
             src="/oldMen.jpg"
@@ -58,9 +58,9 @@ const Hero=()=>{
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-              delay: 0.6,
+              delay: 0.2,
               x: { type: "spring", stiffness: 160 },
-              opacity: { duration: 0.8 },
+              opacity: { duration: 0.2 },
               ease: "easeIn",
             }}
             className="text-4xl text-pink-500 font-Arabic pb-2 " dir="rtl">{text1}</motion.h1>
@@ -69,7 +69,7 @@ const Hero=()=>{
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-             delay: 1.2,
+             delay: 0.4,
              x: { type: "spring", stiffness: 160 },
              opacity: { duration: 0.8 },
              ease: "easeIn",
@@ -81,7 +81,7 @@ const Hero=()=>{
            whileInView={{ y: 0, opacity: 1 }}
            viewport={{ once: true }}
            transition={{
-            delay: 2,
+            delay: 0.4,
             x: { type: "spring", stiffness: 160 },
             opacity: { duration: 0.8 },
             ease: "easeIn",
@@ -100,7 +100,7 @@ const Hero=()=>{
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-             delay: 3,
+             delay: 0.4,
              x: { type: "spring", stiffness: 160 },
              opacity: { duration: 0.8 },
              ease: "easeIn",
