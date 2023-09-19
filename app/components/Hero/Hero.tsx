@@ -42,9 +42,9 @@ const Hero=()=>{
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 60 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0.2 },
               ease: "easeIn",
-              duration: 0.4,
+              duration: 0.2,
             }}
             className="w-auto h-auto object-contain border-cyan-900 border-4"
             src="/oldMen.jpg"
@@ -69,9 +69,9 @@ const Hero=()=>{
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-             delay: 0.4,
+             delay: 0.2,
              x: { type: "spring", stiffness: 160 },
-             opacity: { duration: 0.8 },
+             opacity: { duration: 0.2 },
              ease: "easeIn",
            }}
              className="text-3xl text-cyan-500 font-Arabic" dir="rtl">{text2}</motion.h1>
@@ -81,9 +81,9 @@ const Hero=()=>{
            whileInView={{ y: 0, opacity: 1 }}
            viewport={{ once: true }}
            transition={{
-            delay: 0.4,
+            delay: 0.2,
             x: { type: "spring", stiffness: 160 },
-            opacity: { duration: 0.8 },
+            opacity: { duration: 0.2 },
             ease: "easeIn",
           }}
             className="text-xl text-white font-Arabic" dir="rtl"
@@ -100,9 +100,9 @@ const Hero=()=>{
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-             delay: 0.4,
+             delay: 0.2,
              x: { type: "spring", stiffness: 160 },
-             opacity: { duration: 0.8 },
+             opacity: { duration: 0.2 },
              ease: "easeIn",
            }}
              className="text-xl text-yellow-500 font-Arabic pt-2" dir="rtl">{text3}</motion.h1>
